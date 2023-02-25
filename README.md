@@ -58,6 +58,12 @@ Run and test
    result> will give the version of Django you have.
    if nothing or an error appears then reinstall Django
 
+   o verify that Django can be seen by Python, type python from your shell. Then at the Python prompt, try to import Django:
+
+  import django
+  print(django.get_version())
+  4.1.7
+
 
 
 
