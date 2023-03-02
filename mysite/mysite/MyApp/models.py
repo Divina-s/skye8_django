@@ -1,7 +1,7 @@
 from django.db import models
 GENDER_CHOICES=(
-    ( "Male","Male"),
-    ("Female","Female"))
+    ( "0","Male"),
+    ("1","Female"))
 class Intern(models.Model):
     First_name = models.CharField(max_length=15)
     Last_name = models.CharField(max_length=15)
